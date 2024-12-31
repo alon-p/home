@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(63, 94, 251);
+    background: radial-gradient(circle, #ff6f91 0%, #ffc75f 100%);
+}
+
+
+.main {
+    background-color: #fbeaff;
+    margin: 20vh auto;
+    max-width: 50em;
+    border-radius: 20px;
+    padding: 2em;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 10px;
+    justify-content: center;
+}
+
+h1 {
+    color: #ff6f91;
+}
+
+.main-img {
+    max-width: 100px;
+}
